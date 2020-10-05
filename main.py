@@ -50,6 +50,7 @@ class Hilo(threading.Thread):
        f = open(dir,'rb')
        logger.info('Archivo seleccionado:'+ dir + " tamano"+ str(os.stat(dir).st_size))
        l = f.read(estandar)
+
        while l:
            self.sc.send(l)
            l = f.read(estandar)
