@@ -33,37 +33,46 @@ class Hilo(threading.Thread):
    def run(self):
        #Recibe un cliente
        self.sc, self.address = s.accept()
-
        conf = self.sc.recv(50).decode(encoding='UTF-8', errors='strict')
-       print(conf)
-       logger.info("Client "+ str(self.address) + " Status: "+ conf)
 
        #synchronized - 
        Hilo.monitor.acquire()
-       Hilo.contador += 1
-       print(self.threadID," está conectado al cliente ",self.address,", van ",Hilo.contador," clientes")
-
-       if Hilo.contador >= limite:
-           Hilo.monitor.notify_all()
-       else:
-           while Hilo.contador < limite:
-               Hilo.monitor.wait()
-       Hilo.monitor.release()
+       if conf == 'Established connection. Waiting for the message.':
+           Hilo.contador += 1
+           logger.info("Client "+ str(self.address) + " Status: "+ conf)
+           print(self.threadID," está conectado al cliente ",self.address,", van ",Hilo.contador," clientes")
+           
+           if Hilo.contador >= limite:
+               Hilo.monitor.notify_all()
+           else:
+               while Hilo.contador < limite:
+                   Hilo.monitor.wait()
        print(self.threadID," salió de la espera ")
+       Hilo.monitor.release()
        
        #Lee el texto
        f = open(dir,'rb')
        logger.info('Archivo seleccionado:'+ dir + " tamano"+ str(os.stat(dir).st_size))
 
+       print("Comenzó a enviar")
        l = f.read(estandar)
        i=0
+       hora_inicial = datetime.now().strftime("%m-%d-%Y %H:%M:%S").encode()
+       self.sc.send(hora_inicial)
        while l:
            i+=1
            logger.info('Client connected: ' + str(self.address) + "package number: "+str(i))
            self.sc.send(l)
            l = f.read(estandar)
        f.close()
+       print("terminó de enviar")
 
+       """print("comenzó a esperar el mensaje")
+       texto = self.sc.recv(32).decode(encoding='UTF-8')
+       while not texto:
+           texto = self.sc.recv(32).decode(encoding='UTF-8') 
+           print("txto: "+texto)
+       print("terminó de esperar")"""
 
        #conf1 = self.sc.recv(13).decode(encoding='UTF-8',errors='strict')
        #logger.info('Client connected: ' + str(self.address) + conf1)
