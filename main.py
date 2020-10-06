@@ -28,16 +28,21 @@ class Hilo(threading.Thread):
       self.threadID = threadID
       self.sc = None
       self.address = None
+      self.waiting = threading.Condition()
 
    def run(self):
        #Recibe un cliente
        self.sc, self.address = s.accept()
-       
+
+       conf = self.sc.recv(50).decode(encoding='UTF-8', errors='strict')
+       print(conf)
+       logger.info("Client "+ str(self.address) + " Status: "+ conf)
+
        #synchronized - 
        Hilo.monitor.acquire()
        Hilo.contador += 1
        print(self.threadID," está conectado al cliente ",self.address,", van ",Hilo.contador," clientes")
-       logger.info('Client: ' + str(self.address))
+
        if Hilo.contador >= limite:
            Hilo.monitor.notify_all()
        else:
@@ -49,12 +54,19 @@ class Hilo(threading.Thread):
        #Lee el texto
        f = open(dir,'rb')
        logger.info('Archivo seleccionado:'+ dir + " tamano"+ str(os.stat(dir).st_size))
-       l = f.read(estandar)
 
+       l = f.read(estandar)
+       i=0
        while l:
+           i+=1
+           logger.info('Client connected: ' + str(self.address) + "package number: "+str(i))
            self.sc.send(l)
            l = f.read(estandar)
        f.close()
+
+
+       #conf1 = self.sc.recv(13).decode(encoding='UTF-8',errors='strict')
+       #logger.info('Client connected: ' + str(self.address) + conf1)
        self.sc.close()
 
        #synchronized
