@@ -1,0 +1,106 @@
+Fecha y hora: 07/10/2020 02:56
+Conexiones a realizar para la prueba: 20
+Se va a realizar el envio del archivo: 100mib.pdf
+Cliente numero 1 conectado.
+Cliente numero 2 conectado.
+Cliente numero 3 conectado.
+Cliente numero 4 conectado.
+Cliente numero 5 conectado.
+Cliente numero 6 conectado.
+Cliente numero 7 conectado.
+Cliente numero 8 conectado.
+Cliente numero 9 conectado.
+Cliente numero 10 conectado.
+Cliente numero 11 conectado.
+Cliente numero 12 conectado.
+Cliente numero 13 conectado.
+Cliente numero 14 conectado.
+Cliente numero 15 conectado.
+Cliente numero 16 conectado.
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Se enviaron en total 269821 paquetes al cliente 1 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 1
+Se enviaron en total 269821 paquetes al cliente 3 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 3
+Se enviaron en total 269821 paquetes al cliente 2 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 2
+Hubo un error con el envio
+Hubo un error con el envio
+Se enviaron en total 269821 paquetes al cliente 6 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 6
+Se enviaron en total 269821 paquetes al cliente 7 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 7
+Se enviaron en total 269821 paquetes al cliente 14 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 14
+Se enviaron en total 269821 paquetes al cliente 15 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 15
+Se enviaron en total 269821 paquetes al cliente 4 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 4
+Se enviaron en total 269821 paquetes al cliente 9 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 9
+Se enviaron en total 269821 paquetes al cliente 5 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 5
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Se enviaron en total 269821 paquetes al cliente 8 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 8
+Se enviaron en total 269821 paquetes al cliente 10 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 10
+Hubo un error con el envio
+Hubo un error con el envio
+Se enviaron en total 269821 paquetes al cliente 11 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 11
+Se enviaron en total 269821 paquetes al cliente 13 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 13
+Hubo un error con el envio
+Hubo un error con el envio
+Se enviaron en total 269821 paquetes al cliente 12 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 12
+Se enviaron en total 269821 paquetes al cliente 16 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 16
+Se enviaron en total 269821 paquetes al cliente 14 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 14
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+Hubo un error con el envio
+
+

@@ -1,0 +1,6 @@
+Fecha y hora: 06/10/2020 22:21
+Se recibiran paquetes de 1024 bytes.
+Recibimos un total de 15448 paquetes.
+Archivo descargado (276295757 bytes que fueron leidos)
+La descarga se demoro4400 milisegundos
+Integridad de los archivos recibidos verificada

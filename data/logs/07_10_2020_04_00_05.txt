@@ -1,0 +1,5 @@
+Fecha y hora: 07/10/2020 04:00
+Conexiones a realizar para la prueba: 1
+Se va a realizar el envio del archivo: 100mib.pdf
+Cliente numero 1 conectado.
+Hubo un error con el envio

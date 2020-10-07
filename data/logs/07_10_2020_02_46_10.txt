@@ -1,0 +1,43 @@
+Fecha y hora: 07/10/2020 02:46
+Conexiones a realizar para la prueba: 10
+Se va a realizar el envio del archivo: 100mib.pdf
+Cliente numero 1 conectado.
+Cliente numero 2 conectado.
+Cliente numero 3 conectado.
+Cliente numero 4 conectado.
+Cliente numero 5 conectado.
+Cliente numero 6 conectado.
+Cliente numero 7 conectado.
+Cliente numero 8 conectado.
+Cliente numero 9 conectado.
+Cliente numero 10 conectado.
+Se enviaron en total 269821 paquetes al cliente 1 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 1
+Se enviaron en total 269821 paquetes al cliente 3 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 3
+Se enviaron en total 269821 paquetes al cliente 2 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 2
+Se enviaron en total 269821 paquetes al cliente 6 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 6
+Se enviaron en total 269821 paquetes al cliente 7 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 7
+Se enviaron en total 269821 paquetes al cliente 4 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 4
+Se enviaron en total 269821 paquetes al cliente 9 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 9
+Se enviaron en total 269821 paquetes al cliente 5 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 5
+Se enviaron en total 269821 paquetes al cliente 8 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 8
+Se enviaron en total 269821 paquetes al cliente 10 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 10

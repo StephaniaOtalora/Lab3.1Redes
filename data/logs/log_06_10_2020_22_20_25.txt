@@ -1,0 +1,7 @@
+Fecha y hora: 06/10/2020 22:20
+Conexiones a realizar para la prueba: 1
+Se va a realizar el envío del archivo: 250mib.mp4
+Cliente número 1 conectado.
+Se enviaron en total 269821 paquetes al cliente 1 para un toltal de 69074176 bytes
+Cada paquete con un tamaño de 1024 bytes
+Archivo enviado exitosamente al cliente 1
